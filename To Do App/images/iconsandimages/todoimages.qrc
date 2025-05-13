@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="images">
+    <file>icons8_Checkmark_32.png</file>
+    <file>checkmark.png</file>
+    <file>clock.png</file>
+    <file>icons8_Delete.ico</file>
+    <file>icons8_Delete_16.png</file>
+    <file>icons8_Delete_32.png</file>
+    <file>icons8_macos_maximize.ico</file>
+    <file>icons8_macos_maximize_16.png</file>
+    <file>icons8_macos_maximize_32.png</file>
+    <file>macos_maximize_60px.png</file>
+    <file>Screenshot 2025-05-13 140447.jpg</file>
+    <file>star.png</file>
+    <file>warning.png</file>
+  </qresource>
+</RCC>
