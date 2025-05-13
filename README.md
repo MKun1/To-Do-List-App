@@ -19,16 +19,6 @@ A clean, modern, and functional desktop To-Do List application built with **PyQt
 
 ---
 
-## 📸 Screenshots
-
-*(Add screenshots in the `screenshots/` directory and link them here)*
-
-```bash
-# Example:
-![Main UI](screenshots/main_ui.png)
-
-
-
 
 
 ## 🛠️ Installation
@@ -51,3 +41,39 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 requirements.txt
 ```
+
+
+## ▶️ Running the App
+```bash
+
+python main.py
+```
+
+## 📦 Packaging into an Executable
+To package the app into a standalone .exe (Windows):
+
+```bash
+
+pyinstaller --noconsole --onefile --icon=app.ico --add-data "images/iconsandimages;images/iconsandimages" main.py
+```
+The --add-data flag ensures icons are bundled correctly.
+
+--icon adds the custom app icon.
+
+The resulting .exe will be found in the dist/ folder.
+
+
+## 💡 Notes
+Make sure to use forward slashes (/) in resource paths to ensure compatibility across platforms.
+
+When using PyInstaller, paths must be managed using a helper like resource_path() for bundled files.
+
+## 📃 License
+This project is open-source under the MIT License.
+
+## 🙋‍♂️ Acknowledgements
+Built with ❤️ using PyQt5
+
+UI designed with Qt Designer
+
+
